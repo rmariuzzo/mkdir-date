@@ -1,6 +1,6 @@
 {
   "name": "mkdir-date",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A tool to create directories for each days in a period of time.",
   "license": "MIT",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
