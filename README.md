@@ -1,4 +1,9 @@
-# ![mkdir-date: A tool to create directories for each days in a period of time.](.github/assets/banner.svg)
+<br><br><br>
+<center>
+<h1>mkdir-date</h1>
+<p>A tool to create directories for each days in a period of time.</p>
+</center>
+<br><br><br>
 
 ## Installation
 ```shell
