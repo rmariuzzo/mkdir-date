@@ -1,0 +1,19 @@
+{
+  "name": "mkdir-date",
+  "version": "0.0.0",
+  "description": "A tool to create directories for each days in a period of time.",
+  "license": "MIT",
+  "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
+  "main": "src/mkdir-date.js",
+  "bin": {
+    "mkdir-date": "src/bin.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "date-fns": "^2.16.1",
+    "yargs-parser": "^19.0.4"
+  }
+}
