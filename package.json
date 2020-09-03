@@ -9,7 +9,8 @@
     "mkdir-date": "src/bin.js"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postversion": "git push origin && git push origin --tags"
   },
   "dependencies": {
     "chalk": "^4.1.0",
