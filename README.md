@@ -1,6 +1,8 @@
 # mkdir-date
 A tool to create directories for each days in a period of time.
 
+![](.github/assets/example.png)
+
 ## Usage
 
 ```shell
