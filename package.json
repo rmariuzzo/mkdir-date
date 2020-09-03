@@ -1,6 +1,6 @@
 {
   "name": "mkdir-date",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A tool to create directories for each days in a period of time.",
   "license": "MIT",
   "author": "Rubens Mariuzzo <rubens@mariuzzo.com>",
@@ -13,7 +13,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git push origin && git push origin --tags"
   },
-  "files": ["src"],
+  "files": [
+    "src"
+  ],
   "dependencies": {
     "chalk": "^4.1.0",
     "date-fns": "^2.16.1",
