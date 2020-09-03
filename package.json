@@ -9,6 +9,7 @@
     "mkdir-date": "src/bin.js"
   },
   "scripts": {
+    "start": "./src/bin.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "postversion": "git push origin && git push origin --tags"
   },
