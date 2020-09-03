@@ -94,3 +94,13 @@ npx mkdir-date 2021-01-01 2021-01-07 ./week --pattern="yyyy/LLLL/dd" --locale=es
  1. Clone this repository.
  2. Install dependencies: `npm i`.
  3. Run it locally: `npm start` or `./src/bin.js`
+
+### Tests
+<small>Halp! We still don't have them...</small>
+
+### Releases
+Releases are triggered by `npm version` and handled by [GitHub Actions](https://github.com/rmariuzzo/mkdir-date/actions?query=workflow%3Apublish).
+
+<center><br><br><br>
+Made with ♥ by [@rmariuzzo](https://github.com/rmariuzzo)
+</center>
