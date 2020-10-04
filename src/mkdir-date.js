@@ -12,15 +12,19 @@ module.exports.mkdirDate = (fromDate, toDate, target, options) => {
   }
   
   let currentDateObject = new Date(fromDate.getTime())
-  
+
+
+  let count = 0
   while(isBefore(currentDateObject, toDate)) {
     if (!options.skipDay.includes(getDay(currentDateObject))) {
       const datePath = path.resolve(target, format(currentDateObject, options.pattern, { locale: locales[options.locale] }))
       fs.mkdirSync(datePath, { recursive: true })
       log(`Created: ${path.relative(target, datePath)}`)
+      ++count
     }
     currentDateObject = addDays(currentDateObject, 1)
   }
-  
+
+  success(`total ${count} files were created.`)
   success(`Finished!`)
 }
